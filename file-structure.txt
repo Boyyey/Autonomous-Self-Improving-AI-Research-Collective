@@ -1,0 +1,15 @@
+skynet/
+├── app.py                     # Main dashboard (updated)
+├── api.py                     # FastAPI serving
+├── agents/                    # Multiple AI agents
+│   ├── agent_0.pth
+│   └── agent_1.pth
+├── model_zoo/                 # Generated models + metadata
+├── papers/                    # Auto-generated research papers
+├── blockchain/                # Model provenance chain
+├── research_generator.py      # AI writes its own papers
+├── model_zoo_server.py        # Self-hosted model gallery
+├── tournament.py              # Multi-agent evolution battle
+├── blockchain_ledger.py       # Immutable model history
+├── requirements.txt
+└── checkpoints/

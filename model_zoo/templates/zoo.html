@@ -1,0 +1,12 @@
+<html>
+<head><title>🤖 Skynet Model Zoo</title></head>
+<body>
+<h1>Skynet Model Zoo</h1>
+<ul>
+{% for m in models %}
+<li><strong>{{ m.name }}</strong> - {{ m.size_kb }} KB 
+<a href="{{ m.download_url }}" download>📥 Download</a></li>
+{% endfor %}
+</ul>
+</body>
+</html>
